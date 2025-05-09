@@ -12,6 +12,8 @@ def main():
                 L = False
         except ValueError:
             L = False
+    else:
+        L = False
 
     # detecting correct uses
     if L == False:
